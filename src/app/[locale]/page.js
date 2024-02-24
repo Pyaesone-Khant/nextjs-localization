@@ -1,15 +1,15 @@
-import Image from "next/image";
 import {useTranslations} from "next-intl";
 
 export default function Home() {
       const t = useTranslations("Index")
 
     return (
-        <section className={`bg-gray-200 p-5 flex-1`}>
-            <h2>
+        <section className={`flex-1 space-y-3`}>
+            <h2 className={`text-lg font-semibold`} >
                 {t("title")}
             </h2>
             <p> {t("desc")} </p>
+            <p className={`text-gray-500`} > {t("intro")} </p>
         </section>
     );
 }

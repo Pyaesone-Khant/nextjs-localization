@@ -1,7 +1,8 @@
 {
   "Index": {
     "title": "Hello!",
-    "desc": "Welcome to the NextJS Internationalization Example!"
+    "desc": "Welcome to the NextJS Internationalization Example!",
+    "intro": "Welcome to the next-intl docs! In this guide you will learn how to set up internationalization (i18n) in your Next.js app. With Next.js 13, the App Router along with support for React Server Components was introduced and announced as stable with version 13.4. Following the lead of Next.js, next-intl also recommends this paradigm since it increases both simplicity as well as flexibility when it comes to i18n."
   },
   "NotFound": {
     "title": "404",
@@ -14,6 +15,11 @@
   },
     "About": {
         "title": "About",
-        "desc": "This is the about page."
-    }
+        "desc": "This is the about page.",
+      "content": "To bring an art that is the origin of the idea of literature to the youth of the future, simply start with Panora."
+    },
+  "Contact": {
+            "title": "Contact",
+            "desc": "This is the contact page."
+        }
 }

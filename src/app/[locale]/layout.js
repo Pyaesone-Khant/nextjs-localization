@@ -2,6 +2,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import {NextIntlClientProvider, useMessages} from "next-intl";
 import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,9 +22,10 @@ export default function RootLayout({ children, params: {locale} }) {
       <NextIntlClientProvider locale={locale} messages={messages}>
         <main className={`min-h-screen space-y-5 flex flex-col`}>
             <Header/>
-            <section className={`flex flex-1`}>
+            <section className={`flex flex-1 bg-gray-200 p-5`}>
                 {children}
             </section>
+            <Footer/>
         </main>
       </NextIntlClientProvider>
       </body>

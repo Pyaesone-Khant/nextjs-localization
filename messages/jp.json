@@ -1,0 +1,25 @@
+{
+  "Index": {
+    "title": "こんにちは!",
+    "desc": "NextJS 国際化サンプルへようこそ!",
+    "intro": "Next-intl ドキュメントへようこそ! このガイドでは、Next.js アプリで国際化 (i18n) を設定する方法を学習します。Next.js 13 では、App Router と React Server Components のサポートが導入され、バージョン 13.4 で安定していると発表されました。 Next.js に続いて、next-intl もこのパラダイムを推奨しています。これは、i18n に関しては単純さと柔軟性の両方が向上するためです。"
+  },
+  "NotFound": {
+    "title": "404",
+    "desc": "おっとっと！ お探しのページは存在しないようです."
+  },
+  "Navigation": {
+    "home": "家",
+    "about": "について",
+    "contact": "接触"
+  },
+  "About": {
+    "title": "について",
+    "desc": "これは概要ページです.",
+    "content": "文学という概念の原点である芸術を未来の若者に届けるには、まず Panora から始めてください。"
+  },
+  "Contact": {
+    "title": "接触",
+    "desc": "こちらはお問い合わせページです."
+  }
+}
