@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "Hello!",
+    "desc": "Welcome to the NextJS Internationalization Example!"
+  },
+  "NotFound": {
+    "title": "404",
+    "desc": "Oops! It seems that the page you are looking for does not exist."
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+    "About": {
+        "title": "About",
+        "desc": "This is the about page."
+    }
+}
