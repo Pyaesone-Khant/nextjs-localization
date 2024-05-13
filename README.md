@@ -2,6 +2,7 @@
 
 This project demonstrates how to implement localization in a Next.js project using next-intl package.
 
+
 ## Getting Started
 
 First, install the necessary packages:
@@ -9,6 +10,14 @@ First, install the necessary packages:
 ```bash
 npm install
 ```
+
+Run the project & the app will start at [http://localhost:3000](http://localhost:3000) :
+
+```bash
+npm run dev
+```
+
+# Brief Explanation of how I implement localization in Next JS 
 
 ## Setting Up i18next, middleware & navigation
 
