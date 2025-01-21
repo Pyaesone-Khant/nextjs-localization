@@ -17,7 +17,7 @@ Run the project & the app will start at [http://localhost:3000](http://localhost
 npm run dev
 ```
 
-# Brief Explanation of how I implement localization in Next JS 
+# Brief Explanation of how I implemented localization in Next JS 
 
 ## Setting Up i18next, middleware & navigation
 
